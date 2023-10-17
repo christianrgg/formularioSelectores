@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SelectorPagesComponent } from './pages/selector-pages/selector-pages.component';
+import {CountriesRountingModule} from "./countries-rounting.module";
 
 
 
@@ -9,7 +10,8 @@ import { SelectorPagesComponent } from './pages/selector-pages/selector-pages.co
     SelectorPagesComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    CountriesRountingModule,
   ]
 })
 export class CountriesModule { }
